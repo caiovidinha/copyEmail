@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.email-txt {
+    padding: 0 20px 5px 20px;
+    font-weight: 300;
+    color: rgb(68, 68, 87);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+
+.copy-email {
+    padding: 0 20px 5px 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+.gambiarra{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -150px;
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.email{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: -30px;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+
+    transition: 0.8s ease;
+}
+
+.email:hover{
+    cursor: pointer;
+    background-color:blanchedalmond;
+}
+
+.copy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: 30px;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    transition: 0.8s ease;
+    background-color:rgba(231, 20, 20, 0.7);
+}
+
+.copy:hover{
+    cursor: pointer;
+}
+.cover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -125px;
+    margin-top: 30px;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    transition: 0.8s ease;
+    color: #fff;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
